@@ -1,0 +1,56 @@
+
+{
+
+	"HTMLFileName":"MIQ-logo.html",
+	"PosterCapturePos":"667",
+	"PubWebDir":".\\Publish\\",
+	"ModelData":"{\
+\"stage\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"Preloader\": {\
+   \"timelines\": {\
+\
+   }},\
+\"Down-level\": {\
+   \"timelines\": {\
+\
+   }}\
+}",
+	"PubDPSName":"MIQ-logo2",
+	"PosterImagePath":"images\\Poster.png",
+	"PubChromeFrameInstallerPrompt":"none",
+	"PubDPSDir":".\\",
+	"pref__general__AutoKeyframePropertiesArmed":"false",
+	"PubUseChromeFrameInstaller":"false",
+	"pref__general__AutoKeyframeProperties":"false",
+	"pref__general__TimelineGridSize":"24fps",
+	"pref__general__FilterNonAnimatedElements":"false",
+	"symbol_stage":{
+		"dummyStageParentWidth":"80px",
+		"element_${_MIQ-logo-darkbg}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"animationEnabled":"true",
+			"timelineColor":"0x91c767"},
+		"dummyStageParentHeight":"80px",
+		"defaultStageParentWidth":"80px",
+		"element_${_Stage}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"timelineColor":"0xeedf79"},
+		"defaultStageParentHeight":"80px"},
+	"PubWeb":"false",
+	"CompZoomFactor":"100",
+	"StageZoomFactor":"100",
+	"pixelsPerMs":"0.2",
+	"viewStartY":"0",
+	"pref__general__GenerateSmoothTransitions":"false",
+	"usedBOM":"false",
+	"PubDPS":"true",
+	"pref__general__TimelineShowGrid":"true",
+	"TransitionIdCounter":"9",
+	"nextElementColorIndex":"3",
+	"stage-Default Timeline_playhead_ms":"667"}

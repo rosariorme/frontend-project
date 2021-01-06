@@ -1,0 +1,48 @@
+<style>
+@-moz-keyframes tooltippulse {       
+	0% {-moz-transform: scale(0); opacity: 0;}
+	8% {-moz-transform: scale(0); opacity: 0;}
+	15% {-moz-transform: scale(0.1); opacity: 1;}
+	30% {-moz-transform: scale(0.5); opacity: 1;}
+	100% {opacity: 0; -moz-transform: scale(1);}
+}
+.to-pulse-holder .to-pulse-marker {
+	position: relative;
+	display: block;
+	width: 23px;/*imagen width*/
+	height: 23px;/*imagen height*/
+	background: url(media/images/plus_icon.png) no-repeat;/* imagen*/
+	border-radius: 10px;
+}
+.to-pulse-holder .to-pulse-rays {
+	position: absolute;
+	left: -10px;
+	top: -10px;
+	margin: 0 auto;
+	border-radius: 100px;
+	background-color: transparent;
+	opacity: 0.1;
+	width: 40px;/*agrandar circulo*/
+	height: 40px;/*agrandar circulo*/
+	border: 2px solid #715C5E;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	-o-border-radius: 100px;
+	-ms-border-radius: 100px;
+	border-radius: 100px;
+	-webkit-animation: tooltippulse 1.4s linear infinite;
+	-moz-animation: tooltippulse 1.4s linear infinite; 
+	-ms-animation: tooltippulse 1.4s linear infinite;
+	border-image: initial;
+}
+
+</style>
+<div style="height:100px;background:#000">
+<!---->
+<span class="to-pulse-holder">
+<span class="to-pulse-marker">
+<span class="to-pulse-rays"></span>
+</span>
+</span>
+<!---->
+</div>

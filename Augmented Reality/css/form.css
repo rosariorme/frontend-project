@@ -1,0 +1,30 @@
+.nombre:required, .telefono:required, .email:required {
+	border-color:#CCC; 
+	padding:10px; 
+	border-width:1px; 
+	width:300px;
+	outline: 0;
+}
+
+.arrowselect{
+    width:100px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 2px 30px 2px 2px;
+    border: none;
+    background: transparent url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") no-repeat right center;
+}
+.hora:required, .fecha:required {
+	border-color:#CCC; 
+	padding:10px; 
+	border-width:1px; 
+	width:135px;
+	outline: 0;
+}
+.nombre:focus:invalid, .telefono:focus:invalid, .hora:focus:invalid, .fecha:focus:invalid, .email:focus:invalid {	
+	border: 1px solid red;
+	-webkit-box-shadow:#F00;
+	outline: 0;
+	/*border-color:#CCC; padding:10px; border-width:1px; width:300px;*/
+}
